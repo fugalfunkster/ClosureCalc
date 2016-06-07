@@ -1,0 +1,39 @@
+
+
+div#screen {
+  background-color: lightblue;
+  border: 2px solid black;
+  border-bottom: none;
+  height: 50px;
+  width: 182px;
+  padding: 5px
+}
+div#display {
+  background-color: lightgray;
+  border: 1px solid black;
+  font-size: 26px;
+  padding: 10px;
+  text-align: right;
+  height: 30px
+}
+div#touchpad {
+  background-color: lightblue;
+  border: 2px solid black;
+  border-top: none;
+  width: 182px;
+  padding: 5px;
+}
+
+button {
+  margin: 1px;
+  height: 40px;
+  width: 40px;
+  float: inline;
+}
+button.wide {
+  width: 85px;
+}
+button.tall {
+  height: 85px;
+  float: inline;
+}
